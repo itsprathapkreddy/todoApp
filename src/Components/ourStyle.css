@@ -1,0 +1,90 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
+
+.header {
+	background-color: #4267b2;
+	color: white;
+	font-size: 25px;
+	font-weight: 600;
+	padding: 10px 0;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.todoListItemHead {
+	font-size: 15px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.todoListItem {
+	padding: 5px 20px;
+	border-bottom: 1px solid grey;
+	margin: 5px 2%;
+}
+.addtaskButton {
+	width: 96%;
+	margin: 20px 2% !important;
+}
+
+.addTaskForm {
+	padding: 5px;
+	margin: 10px 2%;
+	border: 1px solid #000;
+	border-radius: 5px;
+	width: 92%;
+	background-color: #6b676f;
+}
+
+.actionButtonContainer {
+	cursor: pointer;
+	display: flex;
+	margin-left: auto;
+}
+#listItemBar {
+	display: flex;
+}
+.taskActionButtons {
+	padding-left: 10px;
+}
+
+input {
+	color: black;
+	background-color: white;
+}
+*:focus {
+	outline: none;
+}
+
+.todoListItemStatus {
+	all: none;
+	padding-right: 10px;
+}
+.checkedTrue {
+	text-decoration: line-through;
+}
+
+.inputTaskAddition {
+	all: none;
+	border: 1px solid black;
+	padding: 10px 2%;
+	width: 92%;
+	margin: 1% 2%;
+	border-radius: 5px;
+	height: 20px;
+}
+.buttonTaskAdditiontick {
+	font-size: 22px;
+	margin: 0px 2%;
+	width: 96%;
+	height: 100%;
+}
+.ButtonTick {
+	color: black;
+	background-color: #0dd8c3;
+	border: none;
+	border-radius: 5px;
+}
+.ButtonCancel {
+	background-color: #ff7f7f;
+	border: none;
+	border-radius: 5px;
+	color: black;
+}

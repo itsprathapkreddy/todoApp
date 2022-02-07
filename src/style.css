@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  background-color: #dce0df;
+}
+.mainContainer {
+  background-color: #fff;
+  color: black;
+  margin: 0 20%;
+  padding-bottom: 10%;
+}
+@media screen and (max-width: 650px) {
+  .mainContainer {
+    margin: 0;
+    padding-bottom: 10%;
+  }
+}
